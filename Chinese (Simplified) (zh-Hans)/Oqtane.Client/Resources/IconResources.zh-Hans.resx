@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Icon.AccountLogin" xml:space="preserve">
+    <value>账户登录</value>
+  </data>
+  <data name="Icon.AccountLogout" xml:space="preserve">
+    <value>账户注销</value>
+  </data>
+  <data name="Icon.ActionRedo" xml:space="preserve">
+    <value>重做操作</value>
+  </data>
+  <data name="Icon.ActionUndo" xml:space="preserve">
+    <value>撤销操作</value>
+  </data>
+  <data name="Icon.AlignCenter" xml:space="preserve">
+    <value>居中对齐</value>
+  </data>
+  <data name="Icon.AlignLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="Icon.AlignRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="Icon.Aperture" xml:space="preserve">
+    <value>光圈</value>
+  </data>
+  <data name="Icon.ArrowBottom" xml:space="preserve">
+    <value>箭头底部</value>
+  </data>
+  <data name="Icon.ArrowCircleBottom" xml:space="preserve">
+    <value>箭头圆形底部</value>
+  </data>
+  <data name="Icon.ArrowCircleLeft" xml:space="preserve">
+    <value>箭头圆形左侧</value>
+  </data>
+  <data name="Icon.ArrowCircleRight" xml:space="preserve">
+    <value>箭头圆形右侧</value>
+  </data>
+  <data name="Icon.ArrowCircleTop" xml:space="preserve">
+    <value>箭头圆形顶部</value>
+  </data>
+  <data name="Icon.ArrowLeft" xml:space="preserve">
+    <value>箭头左侧</value>
+  </data>
+  <data name="Icon.ArrowRight" xml:space="preserve">
+    <value>箭头右侧</value>
+  </data>
+  <data name="Icon.ArrowThickBottom" xml:space="preserve">
+    <value>箭头粗底</value>
+  </data>
+  <data name="Icon.ArrowThickLeft" xml:space="preserve">
+    <value>箭头粗左</value>
+  </data>
+  <data name="Icon.ArrowThickRight" xml:space="preserve">
+    <value>箭头粗右</value>
+  </data>
+  <data name="Icon.ArrowThickTop" xml:space="preserve">
+    <value>箭头粗顶</value>
+  </data>
+  <data name="Icon.ArrowTop" xml:space="preserve">
+    <value>箭头顶</value>
+  </data>
+  <data name="Icon.AudioSpectrum" xml:space="preserve">
+    <value>音频频谱</value>
+  </data>
+  <data name="Icon.Audio" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="Icon.Badge" xml:space="preserve">
+    <value>徽章</value>
+  </data>
+  <data name="Icon.Ban" xml:space="preserve">
+    <value>禁止</value>
+  </data>
+  <data name="Icon.BarChart" xml:space="preserve">
+    <value>条形图</value>
+  </data>
+  <data name="Icon.Basket" xml:space="preserve">
+    <value>篮子</value>
+  </data>
+  <data name="Icon.BatteryEmpty" xml:space="preserve">
+    <value>电池空</value>
+  </data>
+  <data name="Icon.BatteryFull" xml:space="preserve">
+    <value>电池满</value>
+  </data>
+  <data name="Icon.Beaker" xml:space="preserve">
+    <value>烧杯</value>
+  </data>
+  <data name="Icon.Bell" xml:space="preserve">
+    <value>铃铛</value>
+  </data>
+  <data name="Icon.Bluetooth" xml:space="preserve">
+    <value>蓝牙</value>
+  </data>
+  <data name="Icon.Bold" xml:space="preserve">
+    <value>粗体</value>
+  </data>
+  <data name="Icon.Bolt" xml:space="preserve">
+    <value>螺栓</value>
+  </data>
+  <data name="Icon.Book" xml:space="preserve">
+    <value>书籍</value>
+  </data>
+  <data name="Icon.Bookmark" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="Icon.Box" xml:space="preserve">
+    <value>盒子</value>
+  </data>
+  <data name="Icon.Briefcase" xml:space="preserve">
+    <value>公文包</value>
+  </data>
+  <data name="Icon.BritishPound" xml:space="preserve">
+    <value>英镑</value>
+  </data>
+  <data name="Icon.Browser" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="Icon.Brush" xml:space="preserve">
+    <value>刷子</value>
+  </data>
+  <data name="Icon.Bug" xml:space="preserve">
+    <value>虫子</value>
+  </data>
+  <data name="Icon.Bullhorn" xml:space="preserve">
+    <value>扩音器</value>
+  </data>
+  <data name="Icon.Calculator" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="Icon.Calendar" xml:space="preserve">
+    <value>日历</value>
+  </data>
+  <data name="Icon.CameraSlr" xml:space="preserve">
+    <value>单反相机</value>
+  </data>
+  <data name="Icon.CaretBottom" xml:space="preserve">
+    <value>下箭头</value>
+  </data>
+  <data name="Icon.CaretLeft" xml:space="preserve">
+    <value>左箭头</value>
+  </data>
+  <data name="Icon.CaretRight" xml:space="preserve">
+    <value>右箭头</value>
+  </data>
+  <data name="Icon.CaretTop" xml:space="preserve">
+    <value>上箭头</value>
+  </data>
+  <data name="Icon.Cart" xml:space="preserve">
+    <value>购物车</value>
+  </data>
+  <data name="Icon.Chat" xml:space="preserve">
+    <value>聊天</value>
+  </data>
+  <data name="Icon.Check" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="Icon.ChevronBottom" xml:space="preserve">
+    <value>下箭头</value>
+  </data>
+  <data name="Icon.ChevronLeft" xml:space="preserve">
+    <value>左箭头</value>
+  </data>
+  <data name="Icon.ChevronRight" xml:space="preserve">
+    <value>右箭头</value>
+  </data>
+  <data name="Icon.ChevronTop" xml:space="preserve">
+    <value>尖头向上</value>
+  </data>
+  <data name="Icon.CircleCheck" xml:space="preserve">
+    <value>圆形勾选</value>
+  </data>
+  <data name="Icon.CircleX" xml:space="preserve">
+    <value>圆形叉</value>
+  </data>
+  <data name="Icon.Clipboard" xml:space="preserve">
+    <value>剪贴板</value>
+  </data>
+  <data name="Icon.Clock" xml:space="preserve">
+    <value>时钟</value>
+  </data>
+  <data name="Icon.CloudDownload" xml:space="preserve">
+    <value>云下载</value>
+  </data>
+  <data name="Icon.CloudUpload" xml:space="preserve">
+    <value>云上传</value>
+  </data>
+  <data name="Icon.Cloud" xml:space="preserve">
+    <value>云</value>
+  </data>
+  <data name="Icon.Cloudy" xml:space="preserve">
+    <value>多云</value>
+  </data>
+  <data name="Icon.Code" xml:space="preserve">
+    <value>代码</value>
+  </data>
+  <data name="Icon.Cog" xml:space="preserve">
+    <value>齿轮</value>
+  </data>
+  <data name="Icon.CollapseDown" xml:space="preserve">
+    <value>向下折叠</value>
+  </data>
+  <data name="Icon.CollapseLeft" xml:space="preserve">
+    <value>向左折叠</value>
+  </data>
+  <data name="Icon.CollapseRight" xml:space="preserve">
+    <value>向右折叠</value>
+  </data>
+  <data name="Icon.CollapseUp" xml:space="preserve">
+    <value>向上折叠</value>
+  </data>
+  <data name="Icon.Command" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="Icon.CommentSquare" xml:space="preserve">
+    <value>评论方块</value>
+  </data>
+  <data name="Icon.Compass" xml:space="preserve">
+    <value>指南针</value>
+  </data>
+  <data name="Icon.Contrast" xml:space="preserve">
+    <value>对比</value>
+  </data>
+  <data name="Icon.Copywriting" xml:space="preserve">
+    <value>文案</value>
+  </data>
+  <data name="Icon.CreditCard" xml:space="preserve">
+    <value>信用卡</value>
+  </data>
+  <data name="Icon.Crop" xml:space="preserve">
+    <value>裁剪</value>
+  </data>
+  <data name="Icon.Dashboard" xml:space="preserve">
+    <value>仪表盘</value>
+  </data>
+  <data name="Icon.DataTransferDownload" xml:space="preserve">
+    <value>数据传输下载</value>
+  </data>
+  <data name="Icon.DataTransferUpload" xml:space="preserve">
+    <value>数据传输上传</value>
+  </data>
+  <data name="Icon.Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Icon.Dial" xml:space="preserve">
+    <value>拨号</value>
+  </data>
+  <data name="Icon.Document" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="Icon.Dollar" xml:space="preserve">
+    <value>美元</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansLeft" xml:space="preserve">
+    <value>左侧无衬线双引号</value>
+  </data>
+  <data name="Icon.DoubleQuoteSansRight" xml:space="preserve">
+    <value>右侧无衬线双引号</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifLeft" xml:space="preserve">
+    <value>左侧衬线双引号</value>
+  </data>
+  <data name="Icon.DoubleQuoteSerifRight" xml:space="preserve">
+    <value>双引号衬线右</value>
+  </data>
+  <data name="Icon.Droplet" xml:space="preserve">
+    <value>水滴</value>
+  </data>
+  <data name="Icon.Eject" xml:space="preserve">
+    <value>弹出</value>
+  </data>
+  <data name="Icon.Elevator" xml:space="preserve">
+    <value>电梯</value>
+  </data>
+  <data name="Icon.Ellipses" xml:space="preserve">
+    <value>省略号</value>
+  </data>
+  <data name="Icon.EnvelopeClosed" xml:space="preserve">
+    <value>信封关闭</value>
+  </data>
+  <data name="Icon.EnvelopeOpen" xml:space="preserve">
+    <value>信封打开</value>
+  </data>
+  <data name="Icon.Euro" xml:space="preserve">
+    <value>欧元</value>
+  </data>
+  <data name="Icon.Excerpt" xml:space="preserve">
+    <value>摘录</value>
+  </data>
+  <data name="Icon.ExpandDown" xml:space="preserve">
+    <value>向下展开</value>
+  </data>
+  <data name="Icon.ExpandLeft" xml:space="preserve">
+    <value>向左展开</value>
+  </data>
+  <data name="Icon.ExpandRight" xml:space="preserve">
+    <value>向右展开</value>
+  </data>
+  <data name="Icon.ExpandUp" xml:space="preserve">
+    <value>向上展开</value>
+  </data>
+  <data name="Icon.ExternalLink" xml:space="preserve">
+    <value>外部链接</value>
+  </data>
+  <data name="Icon.Eye" xml:space="preserve">
+    <value>眼睛</value>
+  </data>
+  <data name="Icon.Eyedropper" xml:space="preserve">
+    <value>吸管</value>
+  </data>
+  <data name="Icon.File" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Icon.Fire" xml:space="preserve">
+    <value>火</value>
+  </data>
+  <data name="Icon.Flag" xml:space="preserve">
+    <value>旗帜</value>
+  </data>
+  <data name="Icon.Flash" xml:space="preserve">
+    <value>闪光</value>
+  </data>
+  <data name="Icon.Folder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="Icon.Fork" xml:space="preserve">
+    <value>叉</value>
+  </data>
+  <data name="Icon.FullscreenEnter" xml:space="preserve">
+    <value>全屏进入</value>
+  </data>
+  <data name="Icon.FullscreenExit" xml:space="preserve">
+    <value>全屏退出</value>
+  </data>
+  <data name="Icon.Globe" xml:space="preserve">
+    <value>地球仪</value>
+  </data>
+  <data name="Icon.Graph" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="Icon.GridFourUp" xml:space="preserve">
+    <value>四格网</value>
+  </data>
+  <data name="Icon.GridThreeUp" xml:space="preserve">
+    <value>三格网</value>
+  </data>
+  <data name="Icon.GridTwoUp" xml:space="preserve">
+    <value>双格网</value>
+  </data>
+  <data name="Icon.HardDrive" xml:space="preserve">
+    <value>硬盘</value>
+  </data>
+  <data name="Icon.Header" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Icon.Headphones" xml:space="preserve">
+    <value>耳机</value>
+  </data>
+  <data name="Icon.Heart" xml:space="preserve">
+    <value>心脏</value>
+  </data>
+  <data name="Icon.Home" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="Icon.Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Icon.Inbox" xml:space="preserve">
+    <value>收件箱</value>
+  </data>
+  <data name="Icon.Infinity" xml:space="preserve">
+    <value>无限</value>
+  </data>
+  <data name="Icon.Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Icon.Italic" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="Icon.JustifyCenter" xml:space="preserve">
+    <value>居中对齐</value>
+  </data>
+  <data name="Icon.JustifyLeft" xml:space="preserve">
+    <value>左对齐</value>
+  </data>
+  <data name="Icon.JustifyRight" xml:space="preserve">
+    <value>右对齐</value>
+  </data>
+  <data name="Icon.Key" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="Icon.Laptop" xml:space="preserve">
+    <value>笔记本电脑</value>
+  </data>
+  <data name="Icon.Layers" xml:space="preserve">
+    <value>图层</value>
+  </data>
+  <data name="Icon.Lightbulb" xml:space="preserve">
+    <value>灯泡</value>
+  </data>
+  <data name="Icon.LinkBroken" xml:space="preserve">
+    <value>链接已断开</value>
+  </data>
+  <data name="Icon.LinkIntact" xml:space="preserve">
+    <value>链接完整</value>
+  </data>
+  <data name="Icon.ListRich" xml:space="preserve">
+    <value>列表丰富</value>
+  </data>
+  <data name="Icon.List" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="Icon.Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Icon.LockLocked" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="Icon.LockUnlocked" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="Icon.LoopCircular" xml:space="preserve">
+    <value>循环圆形</value>
+  </data>
+  <data name="Icon.LoopSquare" xml:space="preserve">
+    <value>循环方形</value>
+  </data>
+  <data name="Icon.Loop" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="Icon.MagnifyingGlass" xml:space="preserve">
+    <value>放大镜</value>
+  </data>
+  <data name="Icon.MapMarker" xml:space="preserve">
+    <value>地图标记</value>
+  </data>
+  <data name="Icon.Map" xml:space="preserve">
+    <value>地图</value>
+  </data>
+  <data name="Icon.MediaPause" xml:space="preserve">
+    <value>媒体暂停</value>
+  </data>
+  <data name="Icon.MediaPlay" xml:space="preserve">
+    <value>媒体播放</value>
+  </data>
+  <data name="Icon.MediaRecord" xml:space="preserve">
+    <value>媒体录制</value>
+  </data>
+  <data name="Icon.MediaSkipBackward" xml:space="preserve">
+    <value>媒体向后跳过</value>
+  </data>
+  <data name="Icon.MediaSkipForward" xml:space="preserve">
+    <value>媒体快进</value>
+  </data>
+  <data name="Icon.MediaStepBackward" xml:space="preserve">
+    <value>媒体倒退</value>
+  </data>
+  <data name="Icon.MediaStepForward" xml:space="preserve">
+    <value>媒体快退</value>
+  </data>
+  <data name="Icon.MediaStop" xml:space="preserve">
+    <value>媒体停止</value>
+  </data>
+  <data name="Icon.MedicalCross" xml:space="preserve">
+    <value>医疗十字</value>
+  </data>
+  <data name="Icon.Menu" xml:space="preserve">
+    <value>菜单</value>
+  </data>
+  <data name="Icon.Microphone" xml:space="preserve">
+    <value>麦克风</value>
+  </data>
+  <data name="Icon.Minus" xml:space="preserve">
+    <value>减号</value>
+  </data>
+  <data name="Icon.Monitor" xml:space="preserve">
+    <value>监视器</value>
+  </data>
+  <data name="Icon.Moon" xml:space="preserve">
+    <value>月亮</value>
+  </data>
+  <data name="Icon.Move" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Icon.MusicalNote" xml:space="preserve">
+    <value>音符</value>
+  </data>
+  <data name="Icon.Paperclip" xml:space="preserve">
+    <value>回形针</value>
+  </data>
+  <data name="Icon.Pencil" xml:space="preserve">
+    <value>铅笔</value>
+  </data>
+  <data name="Icon.People" xml:space="preserve">
+    <value>人们</value>
+  </data>
+  <data name="Icon.Person" xml:space="preserve">
+    <value>人</value>
+  </data>
+  <data name="Icon.Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="Icon.PieChart" xml:space="preserve">
+    <value>饼图</value>
+  </data>
+  <data name="Icon.Pin" xml:space="preserve">
+    <value>图钉</value>
+  </data>
+  <data name="Icon.PlayCircle" xml:space="preserve">
+    <value>播放圈</value>
+  </data>
+  <data name="Icon.Plus" xml:space="preserve">
+    <value>加号</value>
+  </data>
+  <data name="Icon.PowerStandby" xml:space="preserve">
+    <value>电源待机</value>
+  </data>
+  <data name="Icon.Print" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="Icon.Project" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="Icon.Pulse" xml:space="preserve">
+    <value>脉搏</value>
+  </data>
+  <data name="Icon.PuzzlePiece" xml:space="preserve">
+    <value>拼图块</value>
+  </data>
+  <data name="Icon.QuestionMark" xml:space="preserve">
+    <value>问号</value>
+  </data>
+  <data name="Icon.Rain" xml:space="preserve">
+    <value>雨</value>
+  </data>
+  <data name="Icon.Random" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="Icon.Reload" xml:space="preserve">
+    <value>重新加载</value>
+  </data>
+  <data name="Icon.ResizeBoth" xml:space="preserve">
+    <value>同时调整大小</value>
+  </data>
+  <data name="Icon.ResizeHeight" xml:space="preserve">
+    <value>调整高度</value>
+  </data>
+  <data name="Icon.ResizeWidth" xml:space="preserve">
+    <value>调整宽度</value>
+  </data>
+  <data name="Icon.RssAlt" xml:space="preserve">
+    <value>RSS替代</value>
+  </data>
+  <data name="Icon.Rss" xml:space="preserve">
+    <value>RSS</value>
+  </data>
+  <data name="Icon.Script" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="Icon.ShareBoxed" xml:space="preserve">
+    <value>分享框</value>
+  </data>
+  <data name="Icon.Share" xml:space="preserve">
+    <value>分享</value>
+  </data>
+  <data name="Icon.Shield" xml:space="preserve">
+    <value>盾牌</value>
+  </data>
+  <data name="Icon.Signal" xml:space="preserve">
+    <value>信号</value>
+  </data>
+  <data name="Icon.Signpost" xml:space="preserve">
+    <value>指示牌</value>
+  </data>
+  <data name="Icon.SortAscending" xml:space="preserve">
+    <value>升序排列</value>
+  </data>
+  <data name="Icon.SortDescending" xml:space="preserve">
+    <value>降序排列</value>
+  </data>
+  <data name="Icon.Spreadsheet" xml:space="preserve">
+    <value>电子表格</value>
+  </data>
+  <data name="Icon.Star" xml:space="preserve">
+    <value>星星</value>
+  </data>
+  <data name="Icon.Sun" xml:space="preserve">
+    <value>太阳</value>
+  </data>
+  <data name="Icon.Tablet" xml:space="preserve">
+    <value>平板电脑</value>
+  </data>
+  <data name="Icon.Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Icon.Tags" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Icon.Target" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="Icon.Task" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="Icon.Terminal" xml:space="preserve">
+    <value>终端</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Icon.ThumbDown" xml:space="preserve">
+    <value>不喜欢</value>
+  </data>
+  <data name="Icon.ThumbUp" xml:space="preserve">
+    <value>喜欢</value>
+  </data>
+  <data name="Icon.Timer" xml:space="preserve">
+    <value>计时器</value>
+  </data>
+  <data name="Icon.Transfer" xml:space="preserve">
+    <value>转移</value>
+  </data>
+  <data name="Icon.Trash" xml:space="preserve">
+    <value>垃圾</value>
+  </data>
+  <data name="Icon.Underline" xml:space="preserve">
+    <value>下划线</value>
+  </data>
+  <data name="Icon.VerticalAlignBottom" xml:space="preserve">
+    <value>垂直对齐底部</value>
+  </data>
+  <data name="Icon.VerticalAlignCenter" xml:space="preserve">
+    <value>垂直对齐中心</value>
+  </data>
+  <data name="Icon.VerticalAlignTop" xml:space="preserve">
+    <value>垂直对齐顶部</value>
+  </data>
+  <data name="Icon.Video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="Icon.VolumeHigh" xml:space="preserve">
+    <value>音量高</value>
+  </data>
+  <data name="Icon.VolumeLow" xml:space="preserve">
+    <value>音量低</value>
+  </data>
+  <data name="Icon.VolumeOff" xml:space="preserve">
+    <value>音量关闭</value>
+  </data>
+  <data name="Icon.Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Icon.Wifi" xml:space="preserve">
+    <value>无线网络</value>
+  </data>
+  <data name="Icon.Wrench" xml:space="preserve">
+    <value>扳手</value>
+  </data>
+  <data name="Icon.X" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="Icon.Yen" xml:space="preserve">
+    <value>日元</value>
+  </data>
+  <data name="Icon.ZoomIn" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="Icon.ZoomOut" xml:space="preserve">
+    <value>缩小</value>
+  </data>
+</root>

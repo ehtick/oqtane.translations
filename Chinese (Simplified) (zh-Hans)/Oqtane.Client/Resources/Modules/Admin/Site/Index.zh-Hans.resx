@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>选择容器</value>
+  </data>
+  <data name="Error.Theme.LoadPane" xml:space="preserve">
+    <value>加载主题面板布局时出错</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>默认容器：</value>
+  </data>
+  <data name="DefaultAdminContainer" xml:space="preserve">
+    <value>默认管理员容器</value>
+  </data>
+  <data name="Smtp.Required.EnableNotificationJob" xml:space="preserve">
+    <value>** 请注意，SMTP 需要在计划任务中启用通知作业</value>
+  </data>
+  <data name="Smtp.TestConfig" xml:space="preserve">
+    <value>测试 SMTP 配置</value>
+  </data>
+  <data name="Success.Settings.SaveSite" xml:space="preserve">
+    <value>站点设置已保存</value>
+  </data>
+  <data name="Message.Aliases.Taken" xml:space="preserve">
+    <value>指定的别名已被用于另一个站点</value>
+  </data>
+  <data name="Message.Required.SiteName" xml:space="preserve">
+    <value>您必须提供站点名称、别名和默认主题/容器</value>
+  </data>
+  <data name="Error.SaveSite" xml:space="preserve">
+    <value>保存站点时出错</value>
+  </data>
+  <data name="Info.Smtp.SaveSettings" xml:space="preserve">
+    <value>SMTP 设置已保存，消息已发送到与您的用户帐户关联的电子邮件地址... 请等待几分钟以便送达。如果您没有收到电子邮件，请查看计划作业中的通知作业以获取任何日志详细信息。</value>
+  </data>
+  <data name="Error.Smtp.TestConfig" xml:space="preserve">
+    <value>测试 SMTP 配置时出错</value>
+  </data>
+  <data name="Message.Required.Smtp" xml:space="preserve">
+    <value>您必须指定 SMTP 主机、端口和发件人</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>输入网站名称</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>用于该网站的数据库名称。请注意，这不是物理数据库名称，而是用于在框架中识别数据库的租户名称。</value>
+  </data>
+  <data name="Aliases.HelpText" xml:space="preserve">
+    <value>网站的 URL。这可以包括域名（例如：domain.com）、子域名（例如：sub.domain.com）或虚拟文件夹（例如：domain.com/folder）。</value>
+  </data>
+  <data name="IsDeleted.HelpText" xml:space="preserve">
+    <value>该网站是否已删除？</value>
+  </data>
+  <data name="Logo.HelpText" xml:space="preserve">
+    <value>为网站指定一个徽标</value>
+  </data>
+  <data name="FavoriteIcon.HelpText" xml:space="preserve">
+    <value>指定一个 Favicon。图像的格式必须为 16×16、32×32、48×48 或 64×64 像素，颜色深度为 8 位、24 位或 32 位。图像格式必须为 ICO、PNG 或 GIF。</value>
+  </data>
+  <data name="DefaultTheme.HelpText" xml:space="preserve">
+    <value>选择站点的默认主题</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>选择站点的默认容器</value>
+  </data>
+  <data name="DefaultAdminContainer.HelpText" xml:space="preserve">
+    <value>选择站点的默认管理员容器</value>
+  </data>
+  <data name="Host.HelpText" xml:space="preserve">
+    <value>输入SMTP服务器的主机名</value>
+  </data>
+  <data name="Port.HelpText" xml:space="preserve">
+    <value>输入SMTP服务器的端口号。如果提供主机名，则此字段为必填项。</value>
+  </data>
+  <data name="SmtpSSL.HelpText" xml:space="preserve">
+    <value>指定SMTP服务器的SSL连接类型</value>
+  </data>
+  <data name="SmtpUsername.HelpText" xml:space="preserve">
+    <value>输入您的SMTP账户的用户名</value>
+  </data>
+  <data name="SmtpPassword.HelpText" xml:space="preserve">
+    <value>输入您的 SMTP 账户密码</value>
+  </data>
+  <data name="SmtpSender.HelpText" xml:space="preserve">
+    <value>输入将用于发送邮件的电子邮件地址。请注意，此电子邮件地址通常需要在 SMTP 服务器上进行授权。</value>
+  </data>
+  <data name="EnablePWA.HelpText" xml:space="preserve">
+    <value>选择您是否希望此站点作为渐进式 Web 应用程序 (PWA) 可用</value>
+  </data>
+  <data name="PwaApplicationIcon.HelpText" xml:space="preserve">
+    <value>为您的 PWA 包含一个应用图标。它应该是一个 192 X 192 像素的 PNG 格式。</value>
+  </data>
+  <data name="PwaSplashIcon.HelpText" xml:space="preserve">
+    <value>为您的 PWA 包含一个启动图标。它应该是一个 512 X 512 像素的 PNG 格式。</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>数据库：</value>
+  </data>
+  <data name="Aliases.Text" xml:space="preserve">
+    <value>网址：</value>
+  </data>
+  <data name="IsDeleted.Text" xml:space="preserve">
+    <value>已删除？</value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>徽标：</value>
+  </data>
+  <data name="FavoriteIcon.Text" xml:space="preserve">
+    <value>网站图标：</value>
+  </data>
+  <data name="DefaultTheme.Text" xml:space="preserve">
+    <value>默认主题：</value>
+  </data>
+  <data name="DefaultAdminContainer.Text" xml:space="preserve">
+    <value>默认管理员容器：</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>主机：</value>
+  </data>
+  <data name="Port.Text" xml:space="preserve">
+    <value>端口：</value>
+  </data>
+  <data name="SmtpSSL.Text" xml:space="preserve">
+    <value>SSL 选项：</value>
+  </data>
+  <data name="SmtpUsername.Text" xml:space="preserve">
+    <value>用户名：</value>
+  </data>
+  <data name="SmtpPassword.Text" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="SmtpSender.Text" xml:space="preserve">
+    <value>发件人邮箱：</value>
+  </data>
+  <data name="EnablePWA.Text" xml:space="preserve">
+    <value>是否启用？</value>
+  </data>
+  <data name="PwaApplicationIcon.Text" xml:space="preserve">
+    <value>应用图标：</value>
+  </data>
+  <data name="PwaSplashIcon.Text" xml:space="preserve">
+    <value>启动图标：</value>
+  </data>
+  <data name="Confirm.DeleteSite" xml:space="preserve">
+    <value>您确定要删除此站点吗？</value>
+  </data>
+  <data name="Error.DeleteSite" xml:space="preserve">
+    <value>删除站点时出错</value>
+  </data>
+  <data name="Message.FailAuth.DeleteSite" xml:space="preserve">
+    <value>您没有权限删除该站点</value>
+  </data>
+  <data name="Theme.Select" xml:space="preserve">
+    <value>选择主题</value>
+  </data>
+  <data name="Hosting.Heading" xml:space="preserve">
+    <value>UI 组件设置</value>
+  </data>
+  <data name="Prerender.HelpText" xml:space="preserve">
+    <value>指定交互组件是否应在服务器上预渲染其输出</value>
+  </data>
+  <data name="Prerender.Text" xml:space="preserve">
+    <value>预渲染：</value>
+  </data>
+  <data name="RenderMode.HelpText" xml:space="preserve">
+    <value>网站的默认渲染模式</value>
+  </data>
+  <data name="RenderMode.Text" xml:space="preserve">
+    <value>渲染模式：</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="TenantInformation.Heading" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="PWASettings.Heading" xml:space="preserve">
+    <value>PWA 设置</value>
+  </data>
+  <data name="SMTPSettings.Heading" xml:space="preserve">
+    <value>SMTP 设置</value>
+  </data>
+  <data name="ConnectionString.Text" xml:space="preserve">
+    <value>连接：</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>类型：</value>
+  </data>
+  <data name="ConnectionString.HelpText" xml:space="preserve">
+    <value>appsettings.json 中用于连接数据库的连接字符串名称</value>
+  </data>
+  <data name="Database.HelpText" xml:space="preserve">
+    <value>数据库类型</value>
+  </data>
+  <data name="DeleteSite.Header" xml:space="preserve">
+    <value>删除站点</value>
+  </data>
+  <data name="DeleteSite.Text" xml:space="preserve">
+    <value>删除站点</value>
+  </data>
+  <data name="DefaultAlias.HelpText" xml:space="preserve">
+    <value>站点的默认别名。对非默认别名的请求将被重定向到默认别名。</value>
+  </data>
+  <data name="DefaultAlias.Text" xml:space="preserve">
+    <value>默认别名：</value>
+  </data>
+  <data name="Aliases.Heading" xml:space="preserve">
+    <value>站点网址</value>
+  </data>
+  <data name="AliasName" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="AliasDefault" xml:space="preserve">
+    <value>默认？</value>
+  </data>
+  <data name="Confirm.Alias.Delete" xml:space="preserve">
+    <value>您确定要删除 {0} 吗？</value>
+  </data>
+  <data name="HomePage.HelpText" xml:space="preserve">
+    <value>选择站点的主页（如果没有路径为 '/' 的页面，将使用此页面）</value>
+  </data>
+  <data name="HomePage.Text" xml:space="preserve">
+    <value>主页：</value>
+  </data>
+  <data name="SmtpRelay.HelpText" xml:space="preserve">
+    <value>仅在您已正确配置 SMTP 中继服务以路由您的外发邮件时指定此选项。此选项将从用户的电子邮件发送通知，而不是从上面指定的电子邮件发送者发送。</value>
+  </data>
+  <data name="SmtpRelay.Text" xml:space="preserve">
+    <value>中继已配置？</value>
+  </data>
+  <data name="SiteMap.HelpText" xml:space="preserve">
+    <value>此站点的站点地图 URL，可提交给搜索引擎进行索引。站点地图缓存 5 分钟，缓存可以手动清除。</value>
+  </data>
+  <data name="SiteMap.Text" xml:space="preserve">
+    <value>站点地图：</value>
+  </data>
+  <data name="Appearance.Heading" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>可选输入要包含在页面头部的内容（即 meta、link 或 script 标签）</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>头部内容：</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>可选输入要包含在页面主体的内容（即 script 标签）</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>正文内容：</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>页面内容</value>
+  </data>
+  <data name="SmtpEnabled.HelpText" xml:space="preserve">
+    <value>指定此站点是否启用SMTP</value>
+  </data>
+  <data name="SmtpEnabled.Text" xml:space="preserve">
+    <value>启用？</value>
+  </data>
+  <data name="Version.HelpText" xml:space="preserve">
+    <value>站点版本（用于站点内容迁移）</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="DeleteAlias.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DeleteAlias.Header" xml:space="preserve">
+    <value>删除别名</value>
+  </data>
+  <data name="SiteGuid.HelpText" xml:space="preserve">
+    <value>网站的唯一标识符</value>
+  </data>
+  <data name="SiteGuid.Text" xml:space="preserve">
+    <value>ID：</value>
+  </data>
+  <data name="Retention.HelpText" xml:space="preserve">
+    <value>保留通知的天数</value>
+  </data>
+  <data name="Retention.Text" xml:space="preserve">
+    <value>保留（天）：</value>
+  </data>
+  <data name="HybridEnabled.HelpText" xml:space="preserve">
+    <value>指定该网站是否可以与外部 .NET MAUI 混合应用程序集成</value>
+  </data>
+  <data name="HybridEnabled.Text" xml:space="preserve">
+    <value>启用混合模式？</value>
+  </data>
+  <data name="Runtime.HelpText" xml:space="preserve">
+    <value>需要交互的 UI 组件的渲染模式</value>
+  </data>
+  <data name="Runtime.Text" xml:space="preserve">
+    <value>交互性：</value>
+  </data>
+  <data name="TextEditor.HelpText" xml:space="preserve">
+    <value>选择网站的文本编辑器</value>
+  </data>
+  <data name="TextEditor.Text" xml:space="preserve">
+    <value>文本编辑器：</value>
+  </data>
+  <data name="Functionality" xml:space="preserve">
+    <value>功能性</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="CookieConsent.HelpText" xml:space="preserve">
+    <value>指定此网站是否启用 cookie 同意。请注意，此选项必须与支持 cookie 同意的主题一起使用。</value>
+  </data>
+  <data name="CookieConsent.Text" xml:space="preserve">
+    <value>Cookie 同意：</value>
+  </data>
+  <data name="OptIn" xml:space="preserve">
+    <value>选择加入 (GDPR)</value>
+  </data>
+  <data name="OptOut" xml:space="preserve">
+    <value>选择退出 (CCPA)</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="SiteMap.EvictCache" xml:space="preserve">
+    <value>清除缓存</value>
+  </data>
+  <data name="Success.SiteMap.CacheEvicted" xml:space="preserve">
+    <value>网站地图缓存已清除</value>
+  </data>
+  <data name="TimeZone.Text" xml:space="preserve">
+    <value>时区：</value>
+  </data>
+  <data name="TimeZone.HelpText" xml:space="preserve">
+    <value>网站的默认时区</value>
+  </data>
+  <data name="Basic" xml:space="preserve">
+    <value>基本</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0 (OAuth2)</value>
+  </data>
+  <data name="SmtpAuthentication.Text" xml:space="preserve">
+    <value>身份验证：</value>
+  </data>
+  <data name="SmtpAuthentication.HelpText" xml:space="preserve">
+    <value>指定 SMTP 身份验证类型</value>
+  </data>
+  <data name="SmtpClientID.Text" xml:space="preserve">
+    <value>客户端 ID：</value>
+  </data>
+  <data name="SmtpClientID.HelpText" xml:space="preserve">
+    <value>SMTP 提供商的客户端 ID</value>
+  </data>
+  <data name="SmtpClientSecret.Text" xml:space="preserve">
+    <value>客户端密钥：</value>
+  </data>
+  <data name="SmtpClientSecret.HelpText" xml:space="preserve">
+    <value>SMTP 提供商的客户端密钥</value>
+  </data>
+  <data name="SmtpScopes.Text" xml:space="preserve">
+    <value>作用域：</value>
+  </data>
+  <data name="SmtpScopes.HelpText" xml:space="preserve">
+    <value>SMTP 提供商的作用域列表（用逗号分隔）</value>
+  </data>
+  <data name="SmtpAuthority.Text" xml:space="preserve">
+    <value>授权网址：</value>
+  </data>
+  <data name="SmtpAuthority.HelpText" xml:space="preserve">
+    <value>SMTP 提供商的授权网址</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="StartTls" xml:space="preserve">
+    <value>升级到 TLS</value>
+  </data>
+  <data name="SslOnConnect" xml:space="preserve">
+    <value>要求 SSL/TLS</value>
+  </data>
+  <data name="StartTlsWhenAvailable" xml:space="preserve">
+    <value>可用时使用 TLS</value>
+  </data>
+</root>
