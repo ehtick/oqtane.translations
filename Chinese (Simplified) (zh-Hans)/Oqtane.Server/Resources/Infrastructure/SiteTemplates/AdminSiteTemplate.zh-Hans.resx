@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Privacy" xml:space="preserve">
+    <value>&lt;p&gt;本隐私政策（“政策”）将帮助您了解 [PageState:Site:Name]（“我们”、“我们的”）如何使用和保护您在访问和使用本网站时提供给我们的数据。&lt;/p&gt;
+
+&lt;p&gt;我们保留随时更改本政策的权利。如果您想确保自己了解最新的更改，我们建议您经常访问此页面。&lt;/p&gt;
+
+&lt;h2&gt;我们收集的用户数据&lt;/h2&gt;
+
+&lt;p&gt;当您访问本网站时，我们可能会收集以下数据：您的IP地址、您的联系信息和电子邮件地址、以及其他信息，如兴趣和偏好。&lt;/p&gt;
+
+&lt;h2&gt;我们为何收集您的数据&lt;/h2&gt;
+
+&lt;p&gt;我们收集您的数据有几个原因：更好地了解您的需求、改善我们的产品和服务、向您发送包含我们认为您会感兴趣的信息的促销电子邮件、根据您的在线行为和个人偏好定制我们的网站。&lt;/p&gt;
+
+&lt;h2&gt;保护和安全数据&lt;/h2&gt;
+
+&lt;p&gt;[PageState:Site:Name] 致力于保护您的数据并保持其机密性。[PageState:Site:Name] 已尽一切努力防止数据盗窃、未经授权的访问和披露，通过实施最新的技术和软件，帮助我们保护所有在线收集的信息。&lt;/p&gt;
+
+&lt;h2&gt;我们的Cookie政策&lt;/h2&gt;
+
+&lt;p&gt;一旦您同意允许我们的网站使用Cookies，您也同意我们使用它收集的关于您在线行为的数据（分析网络流量、您访问的网页及停留时间等）。&lt;/p&gt;
+
+&lt;p&gt;我们通过使用Cookies收集的数据用于根据您的需求定制我们的网站。&lt;/p&gt;
+
+&lt;p&gt;请注意，Cookies不会以任何方式让我们访问您的计算机。它们仅用于监控您认为有用的页面和您认为无用的页面，以便我们为您提供更好的体验。&lt;/p&gt;
+
+&lt;p&gt;如果您想禁用或删除Cookies，可以通过访问您的互联网浏览器的设置来实现。&lt;/p&gt;
+
+&lt;h2&gt;链接到其他网站&lt;/h2&gt;
+
+&lt;p&gt;我们的网站包含指向其他网站的链接。如果您点击这些链接，[PageState:Site:Name] 不对您的数据和隐私保护负责。访问这些网站不受本隐私政策协议的约束。请确保阅读您从我们的网站导航到的任何网站的隐私政策文档。&lt;/p&gt;
+
+&lt;h2&gt;限制收集您的个人数据&lt;/h2&gt;
+
+&lt;p&gt;在某些情况下，您可能希望限制对您个人数据的使用和收集。如果您之前同意与我们分享您的信息，请随时通过电子邮件与我们联系，我们将非常乐意为您更改此项。&lt;/p&gt;
+
+&lt;p&gt;[PageState:Site:Name] 不会将您的个人信息租赁、出售或分发给任何第三方，除非我们获得您的许可。您的个人信息仅在我们需要向您发送促销材料时使用，如果您同意本隐私政策。&lt;/p&gt;</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>&lt;p&gt;在使用[PageState:Site:Name]（“我们”、“我们的”）运营的本网站前，请仔细阅读这些条款和条件。&lt;/p&gt;
+
+&lt;h2&gt;使用条件&lt;/h2&gt;
+
+&lt;p&gt;通过使用本网站，您证明您已阅读并审查了本协议，并同意遵守其条款。如果您不希望受本协议的条款约束，建议您停止使用网站。[PageState:Site:Name]仅向接受其条款的人授予使用和访问本网站、其产品和服务的权利。&lt;/p&gt;
+
+&lt;h2&gt;隐私政策&lt;/h2&gt;
+
+&lt;p&gt;在继续使用我们的网站之前，我们建议您阅读我们的&lt;a href="/privacy"&gt;隐私政策&lt;/a&gt;关于我们的用户数据收集。这将帮助您更好地了解我们的做法。&lt;/p&gt;
+
+&lt;h2&gt;知识产权&lt;/h2&gt;
+
+&lt;p&gt;您同意本网站上提供的所有材料、产品和服务是[PageState:Site:Name]及其关联公司、董事、高级职员、雇员、代理人、供应商或许可方的财产，包括所有版权、商业秘密、商标、专利和其他知识产权。您还同意您不会以任何方式复制或重新分发[PageState:Site:Name]的知识产权，包括电子、数字或新的商标注册。&lt;/p&gt;
+
+&lt;p&gt;您授予[PageState:Site:Name]一个免版税和非独家的许可，以展示、使用、复制、传输和广播您上传和发布的内容。关于知识产权索赔的问题，您应该联系我们以达成协议。&lt;/p&gt;
+
+&lt;h2&gt;用户账户&lt;/h2&gt;
+
+&lt;p&gt;作为本网站的用户，您可能会被要求向我们注册并提供私人信息。您负责确保这些信息的准确性，并负责维护您的识别信息的安全性。&lt;/p&gt;
+
+&lt;p&gt;您还负责您账户或密码下发生的所有活动。如果您认为您的账户在网站上的安全可能存在任何问题，请立即通知我们，以便我们相应地处理。&lt;/p&gt;
+
+&lt;p&gt;我们保留终止账户、编辑或删除内容以及自行决定取消订单的所有权利。&lt;/p&gt;
+
+&lt;h2&gt;适用法律&lt;/h2&gt;
+
+&lt;p&gt;通过使用本网站，您同意与[PageState:Site:Name]相关的司法管辖区的法律（不考虑冲突法原则）将管辖这些条款和条件，或任何可能在[PageState:Site:Name]与您或其商业伙伴和关联方之间发生的任何类型的争议。&lt;/p&gt;
+
+&lt;h2&gt;争议&lt;/h2&gt;
+
+&lt;p&gt;与您使用本网站或您从我们购买的产品有关的任何争议应由法院仲裁，并且您同意这些法院的专属管辖权和地点。&lt;/p&gt;
+
+&lt;h2&gt;赔偿&lt;/h2&gt;
+
+&lt;p&gt;您同意赔偿[PageState:Site:Name]及其关联公司，并使[PageState:Site:Name]免受因您使用或滥用我们的服务而可能产生的法律索赔和要求的伤害。我们保留选择我们自己的法律顾问的权利。&lt;/p&gt;
+
+&lt;h2&gt;责任限制&lt;/h2&gt;
+
+&lt;p&gt;[PageState:Site:Name]对因您滥用我们的网站可能发生的任何损害不承担责任。[PageState:Site:Name]保留随时编辑、修改和更改本协议的权利。我们将通过电子邮件通知我们的用户这些更改。本协议是[PageState:Site:Name]与用户之间的理解，并取代和替换所有先前关于使用本网站的协议。&lt;/p&gt;</value>
+  </data>
+</root>

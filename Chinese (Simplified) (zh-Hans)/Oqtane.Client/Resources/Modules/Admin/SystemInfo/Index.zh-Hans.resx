@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Swagger" xml:space="preserve">
+    <value>Swagger UI</value>
+  </data>
+  <data name="FrameworkVersion.HelpText" xml:space="preserve">
+    <value>框架版本</value>
+  </data>
+  <data name="CLRVersion.HelpText" xml:space="preserve">
+    <value>公共语言运行时版本</value>
+  </data>
+  <data name="OSVersion.HelpText" xml:space="preserve">
+    <value>操作系统版本</value>
+  </data>
+  <data name="ContentRootPath.HelpText" xml:space="preserve">
+    <value>服务器根路径</value>
+  </data>
+  <data name="ServerTime.HelpText" xml:space="preserve">
+    <value>服务器日期/时间（UTC）</value>
+  </data>
+  <data name="FrameworkVersion.Text" xml:space="preserve">
+    <value>框架版本：</value>
+  </data>
+  <data name="CLRVersion.Text" xml:space="preserve">
+    <value>CLR版本：</value>
+  </data>
+  <data name="OSVersion.Text" xml:space="preserve">
+    <value>操作系统版本：</value>
+  </data>
+  <data name="ContentRootPath.Text" xml:space="preserve">
+    <value>根路径：</value>
+  </data>
+  <data name="ServerTime.Text" xml:space="preserve">
+    <value>服务器日期/时间：</value>
+  </data>
+  <data name="RestartApplication.Header" xml:space="preserve">
+    <value>重启应用程序</value>
+  </data>
+  <data name="RestartApplication.Message" xml:space="preserve">
+    <value>您确定要重启应用程序吗？</value>
+  </data>
+  <data name="Error.UpdateConfig" xml:space="preserve">
+    <value>更新配置时发生错误</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>配置已更新。请选择重启应用程序以激活这些更改。</value>
+  </data>
+  <data name="InstallationId.Text" xml:space="preserve">
+    <value>安装 ID：</value>
+  </data>
+  <data name="InstallationId.HelpText" xml:space="preserve">
+    <value>您安装的唯一标识符</value>
+  </data>
+  <data name="DetailedErrors.Text" xml:space="preserve">
+    <value>详细错误？</value>
+  </data>
+  <data name="DetailedErrors.HelpText" xml:space="preserve">
+    <value>指定是否为 Blazor 启用详细错误。此选项不应在生产环境中启用。</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>真</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>假</value>
+  </data>
+  <data name="LoggingLevel.Text" xml:space="preserve">
+    <value>日志级别：</value>
+  </data>
+  <data name="LoggingLevel.HelpText" xml:space="preserve">
+    <value>事件日志的最低日志级别。此选项可用于控制存储在事件日志中的项目数量。</value>
+  </data>
+  <data name="Trace" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="Debug" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>关键</value>
+  </data>
+  <data name="Info.Heading" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Options.Heading" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Log.Heading" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>请为我注册主要产品更新和安全公告</value>
+  </data>
+  <data name="Success.Register" xml:space="preserve">
+    <value>您已成功注册更新</value>
+  </data>
+  <data name="PackageManager.HelpText" xml:space="preserve">
+    <value>指定用于安装模块、主题和翻译的包管理服务的 URL。如果此字段为空，则表示此安装的包管理服务已禁用。</value>
+  </data>
+  <data name="PackageManager.Text" xml:space="preserve">
+    <value>包管理器网址：</value>
+  </data>
+  <data name="Swagger.HelpText" xml:space="preserve">
+    <value>指定您的服务器 API 是否启用 Swagger</value>
+  </data>
+  <data name="Swagger.Text" xml:space="preserve">
+    <value>Swagger 是否启用？</value>
+  </data>
+  <data name="RestartApplication.Text" xml:space="preserve">
+    <value>重启应用程序</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="NotificationLevel.HelpText" xml:space="preserve">
+    <value>应向主机用户发送通知的最低日志级别。</value>
+  </data>
+  <data name="NotificationLevel.Text" xml:space="preserve">
+    <value>通知级别：</value>
+  </data>
+  <data name="IPAddress.HelpText" xml:space="preserve">
+    <value>服务器 IP 地址</value>
+  </data>
+  <data name="IPAddress.Text" xml:space="preserve">
+    <value>IP 地址：</value>
+  </data>
+  <data name="MachineName.HelpText" xml:space="preserve">
+    <value>服务器机器名称</value>
+  </data>
+  <data name="MachineName.Text" xml:space="preserve">
+    <value>机器名称：</value>
+  </data>
+  <data name="WebRootPath.HelpText" xml:space="preserve">
+    <value>服务器网页根路径</value>
+  </data>
+  <data name="WebRootPath.Text" xml:space="preserve">
+    <value>网页路径：</value>
+  </data>
+  <data name="WorkingSet.HelpText" xml:space="preserve">
+    <value>服务的内存分配（以 MB 为单位）</value>
+  </data>
+  <data name="WorkingSet.Text" xml:space="preserve">
+    <value>内存分配：</value>
+  </data>
+  <data name="Environment.HelpText" xml:space="preserve">
+    <value>环境名称</value>
+  </data>
+  <data name="Environment.Text" xml:space="preserve">
+    <value>环境：</value>
+  </data>
+  <data name="Log.Text" xml:space="preserve">
+    <value>日志：</value>
+  </data>
+  <data name="Log.HelpText" xml:space="preserve">
+    <value>当前日期的系统日志信息</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Success.ClearLog" xml:space="preserve">
+    <value>系统日志已成功清除</value>
+  </data>
+  <data name="Error.ClearLog" xml:space="preserve">
+    <value>清除系统日志时发生错误</value>
+  </data>
+  <data name="Process.HelpText" xml:space="preserve">
+    <value>指示当前进程是32位还是64位</value>
+  </data>
+  <data name="Process.Text" xml:space="preserve">
+    <value>进程：</value>
+  </data>
+  <data name="PackageManagerEmail.Text" xml:space="preserve">
+    <value>软件包管理器电子邮件：</value>
+  </data>
+  <data name="PackageManagerEmail.HelpText" xml:space="preserve">
+    <value>指定用于与软件包管理器服务交互的用户帐户的电子邮件地址。此帐户用于管理多个安装中的软件包。</value>
+  </data>
+  <data name="CacheControl.Text" xml:space="preserve">
+    <value>静态资产缓存：</value>
+  </data>
+  <data name="CacheControl.HelpText" xml:space="preserve">
+    <value>为静态资产提供Cache-Control指令。例如，'public, max-age=60'表示静态资产应缓存60秒。空值表示未启用缓存。</value>
+  </data>
+  <data name="Endpoints" xml:space="preserve">
+    <value>API 端点</value>
+  </data>
+  <data name="Migration" xml:space="preserve">
+    <value>迁移</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>框架版本</value>
+  </data>
+  <data name="Tenant.Text" xml:space="preserve">
+    <value>数据库：</value>
+  </data>
+  <data name="Tenant.HelpText" xml:space="preserve">
+    <value>当前数据库的名称。请注意，这不是物理数据库名称，而是用于在框架中识别数据库的租户名称。</value>
+  </data>
+</root>

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="DeleteUser.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="EditUser.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Confirm.User.Delete" xml:space="preserve">
+    <value>您确定要删除 {0} 吗？</value>
+  </data>
+  <data name="AddUser.Text" xml:space="preserve">
+    <value>添加用户</value>
+  </data>
+  <data name="DeleteUser.Header" xml:space="preserve">
+    <value>删除用户</value>
+  </data>
+  <data name="AllowRegistration.HelpText" xml:space="preserve">
+    <value>您希望匿名访客能够在网站上注册账户吗</value>
+  </data>
+  <data name="AllowRegistration.Text" xml:space="preserve">
+    <value>允许注册？</value>
+  </data>
+  <data name="RegisterUrl.HelpText" xml:space="preserve">
+    <value>可选提供自定义注册网址</value>
+  </data>
+  <data name="RegisterUrl.Text" xml:space="preserve">
+    <value>注册网址：</value>
+  </data>
+  <data name="ProfileUrl.HelpText" xml:space="preserve">
+    <value>可选提供自定义用户资料网址</value>
+  </data>
+  <data name="ProfileUrl.Text" xml:space="preserve">
+    <value>资料网址：</value>
+  </data>
+  <data name="Error.SaveSiteSettings" xml:space="preserve">
+    <value>保存设置时出错</value>
+  </data>
+  <data name="Success.SaveSiteSettings" xml:space="preserve">
+    <value>设置已成功保存</value>
+  </data>
+  <data name="Users.Heading" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Roles.Text" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="LockoutDuration.HelpText" xml:space="preserve">
+    <value>用户被锁定的分钟数</value>
+  </data>
+  <data name="LockoutDuration.Text" xml:space="preserve">
+    <value>锁定持续时间：</value>
+  </data>
+  <data name="MaximumFailures.HelpText" xml:space="preserve">
+    <value>用户被锁定之前的最大登录尝试次数</value>
+  </data>
+  <data name="MaximumFailures.Text" xml:space="preserve">
+    <value>最大失败次数：</value>
+  </data>
+  <data name="RequireDigit.HelpText" xml:space="preserve">
+    <value>指示密码是否必须包含数字</value>
+  </data>
+  <data name="RequireDigit.Text" xml:space="preserve">
+    <value>需要数字吗？</value>
+  </data>
+  <data name="RequiredLength.HelpText" xml:space="preserve">
+    <value>密码的最小长度</value>
+  </data>
+  <data name="RequiredLength.Text" xml:space="preserve">
+    <value>最小长度：</value>
+  </data>
+  <data name="RequireLower.HelpText" xml:space="preserve">
+    <value>指明密码是否必须包含小写字母</value>
+  </data>
+  <data name="RequireLower.Text" xml:space="preserve">
+    <value>需要小写字母吗？</value>
+  </data>
+  <data name="RequirePunctuation.HelpText" xml:space="preserve">
+    <value>指明密码是否必须包含非字母数字字符（即标点符号）</value>
+  </data>
+  <data name="RequirePunctuation.Text" xml:space="preserve">
+    <value>需要标点符号吗？</value>
+  </data>
+  <data name="RequireUpper.HelpText" xml:space="preserve">
+    <value>指明密码是否必须包含大写字母</value>
+  </data>
+  <data name="RequireUpper.Text" xml:space="preserve">
+    <value>需要大写字母吗？</value>
+  </data>
+  <data name="Success.UpdateConfig.Restart" xml:space="preserve">
+    <value>配置已更新。请选择重启应用程序以激活这些更改。</value>
+  </data>
+  <data name="UniqueCharacters.HelpText" xml:space="preserve">
+    <value>密码必须包含的唯一字符的最小数量</value>
+  </data>
+  <data name="UniqueCharacters.Text" xml:space="preserve">
+    <value>唯一字符：</value>
+  </data>
+  <data name="AllowSiteLogin.HelpText" xml:space="preserve">
+    <value>您是否希望允许用户使用在此站点上本地管理的用户名和密码登录？请注意，只有在您已经成功配置了外部登录提供程序的情况下，才应禁用此选项，否则您可能会锁定自己无法访问该站点。</value>
+  </data>
+  <data name="AllowSiteLogin.Text" xml:space="preserve">
+    <value>允许本地登录？</value>
+  </data>
+  <data name="Authority.HelpText" xml:space="preserve">
+    <value>与身份提供者相关的授权 URL 或发行者 URL</value>
+  </data>
+  <data name="Authority.Text" xml:space="preserve">
+    <value>权限：</value>
+  </data>
+  <data name="AuthorizationUrl.HelpText" xml:space="preserve">
+    <value>获取授权码的端点</value>
+  </data>
+  <data name="AuthorizationUrl.Text" xml:space="preserve">
+    <value>授权网址：</value>
+  </data>
+  <data name="ClientID.HelpText" xml:space="preserve">
+    <value>身份提供者的客户端 ID</value>
+  </data>
+  <data name="ClientID.Text" xml:space="preserve">
+    <value>客户端 ID：</value>
+  </data>
+  <data name="ClientSecret.HelpText" xml:space="preserve">
+    <value>身份提供者的客户端密钥</value>
+  </data>
+  <data name="ClientSecret.Text" xml:space="preserve">
+    <value>客户端密钥：</value>
+  </data>
+  <data name="CreateUsers.HelpText" xml:space="preserve">
+    <value>您希望新用户自动创建吗？如果您禁用此选项，用户必须已经在网站上注册才能使用其外部登录进行登录。</value>
+  </data>
+  <data name="CreateUsers.Text" xml:space="preserve">
+    <value>创建新用户？</value>
+  </data>
+  <data name="DomainFilter.HelpText" xml:space="preserve">
+    <value>提供任何电子邮件域过滤条件（用逗号分隔）。要排除的域应以感叹号（!）为前缀。例如'microsoft.com,!hotmail.com'将包括microsoft.com电子邮件地址，但不包括hotmail.com电子邮件地址。</value>
+  </data>
+  <data name="DomainFilter.Text" xml:space="preserve">
+    <value>域过滤器：</value>
+  </data>
+  <data name="EmailClaimType.HelpText" xml:space="preserve">
+    <value>可选地指定身份提供者提供的电子邮件地址声明的类型名称。典型值为'email'。</value>
+  </data>
+  <data name="EmailClaimType.Text" xml:space="preserve">
+    <value>电子邮件声明：</value>
+  </data>
+  <data name="ExternalLoginSettings.Heading" xml:space="preserve">
+    <value>外部登录设置</value>
+  </data>
+  <data name="LockoutSettings.Heading" xml:space="preserve">
+    <value>锁定设置</value>
+  </data>
+  <data name="MetadataUrl.HelpText" xml:space="preserve">
+    <value>获取此身份提供者元数据的发现端点。仅在身份提供者不使用标准方法（即 /.well-known/openid-configuration）时指定</value>
+  </data>
+  <data name="MetadataUrl.Text" xml:space="preserve">
+    <value>元数据网址：</value>
+  </data>
+  <data name="PasswordSettings.Heading" xml:space="preserve">
+    <value>密码设置</value>
+  </data>
+  <data name="PKCE.HelpText" xml:space="preserve">
+    <value>指示身份提供者是否支持代码交换的证明密钥（PKCE）</value>
+  </data>
+  <data name="PKCE.Text" xml:space="preserve">
+    <value>使用 PKCE？</value>
+  </data>
+  <data name="ProviderName.HelpText" xml:space="preserve">
+    <value>为外部登录提供者指定一个友好的名称，该名称将在登录页面上显示</value>
+  </data>
+  <data name="ProviderName.Text" xml:space="preserve">
+    <value>提供者名称：</value>
+  </data>
+  <data name="ProviderType.HelpText" xml:space="preserve">
+    <value>选择外部登录提供者类型</value>
+  </data>
+  <data name="ProviderType.Text" xml:space="preserve">
+    <value>提供者类型：</value>
+  </data>
+  <data name="RedirectUrl.HelpText" xml:space="preserve">
+    <value>重定向 URL（或回调 URL），通常需要在身份提供者处注册</value>
+  </data>
+  <data name="RedirectUrl.Text" xml:space="preserve">
+    <value>重定向 URL：</value>
+  </data>
+  <data name="Scopes.HelpText" xml:space="preserve">
+    <value>请求身份提供者的范围列表（用逗号分隔）。如果未指定，将默认使用标准范围。</value>
+  </data>
+  <data name="Scopes.Text" xml:space="preserve">
+    <value>作用域：</value>
+  </data>
+  <data name="TokenUrl.HelpText" xml:space="preserve">
+    <value>获取身份验证令牌的端点</value>
+  </data>
+  <data name="TokenUrl.Text" xml:space="preserve">
+    <value>令牌网址：</value>
+  </data>
+  <data name="UserInfoUrl.HelpText" xml:space="preserve">
+    <value>获取用户信息的端点。此应为包含用户电子邮件地址的 API 端点或页面网址。</value>
+  </data>
+  <data name="UserInfoUrl.Text" xml:space="preserve">
+    <value>用户信息网址：</value>
+  </data>
+  <data name="Audience.HelpText" xml:space="preserve">
+    <value>可选地提供令牌的受众</value>
+  </data>
+  <data name="Audience.Text" xml:space="preserve">
+    <value>受众：</value>
+  </data>
+  <data name="UserSettings.Heading" xml:space="preserve">
+    <value>用户设置</value>
+  </data>
+  <data name="CookieName.HelpText" xml:space="preserve">
+    <value>您可以选择为每个站点使用自定义身份验证 cookie 名称。但是请注意，如果您想在同一域上的站点之间共享身份验证 cookie，它们需要使用一致的 cookie 名称。同时请注意，更改身份验证 cookie 名称将使所有当前用户注销。</value>
+  </data>
+  <data name="CookieName.Text" xml:space="preserve">
+    <value>Cookie 名称：</value>
+  </data>
+  <data name="CreateToken" xml:space="preserve">
+    <value>创建令牌</value>
+  </data>
+  <data name="Issuer.HelpText" xml:space="preserve">
+    <value>可选地提供令牌的发行者</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>发行者：</value>
+  </data>
+  <data name="Lifetime.HelpText" xml:space="preserve">
+    <value>令牌应有效的分钟数</value>
+  </data>
+  <data name="Lifetime.Text" xml:space="preserve">
+    <value>有效期：</value>
+  </data>
+  <data name="Secret.HelpText" xml:space="preserve">
+    <value>如果您想提供 API 访问权限，请指定一个将用于加密您的令牌的密钥。该密钥应为 16 个字符或更多，以确保最佳安全性。请注意，如果您更改此密钥，所有现有令牌将变为无效，并需要重新生成。</value>
+  </data>
+  <data name="Secret.Text" xml:space="preserve">
+    <value>密钥：</value>
+  </data>
+  <data name="Token.HelpText" xml:space="preserve">
+    <value>选择创建令牌按钮以生成长期访问令牌（有效期为 1 年）。请确保将此令牌存储在安全的位置，因为您将无法在将来访问它。</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>令牌：</value>
+  </data>
+  <data name="TokenSettings.Heading" xml:space="preserve">
+    <value>令牌设置</value>
+  </data>
+  <data name="TwoFactor.HelpText" xml:space="preserve">
+    <value>您希望用户使用双重身份验证吗？请注意，您应该使用禁用选项，直到您成功验证计划作业中的通知作业已启用，并且您的站点设置中的 SMTP 选项已配置，否则您将无法访问。</value>
+  </data>
+  <data name="TwoFactor.Text" xml:space="preserve">
+    <value>双重身份验证？</value>
+  </data>
+  <data name="RequireConfirmedEmail.HelpText" xml:space="preserve">
+    <value>您希望要求注册用户在允许登录之前验证他们的电子邮件地址吗？</value>
+  </data>
+  <data name="RequireConfirmedEmail.Text" xml:space="preserve">
+    <value>要求验证电子邮件？</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>可选</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>必填</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>最后登录</value>
+  </data>
+  <data name="IdentifierClaimType.HelpText" xml:space="preserve">
+    <value>指定身份提供者提供的唯一用户标识符声明的类型名称。默认值为 'sub'。</value>
+  </data>
+  <data name="IdentifierClaimType.Text" xml:space="preserve">
+    <value>标识符声明：</value>
+  </data>
+  <data name="Parameters.HelpText" xml:space="preserve">
+    <value>可选地指定任何额外参数作为名称/值对发送给身份提供者（如果有多个，用逗号分隔）。</value>
+  </data>
+  <data name="Parameters.Text" xml:space="preserve">
+    <value>参数：</value>
+  </data>
+  <data name="RoleClaimType.HelpText" xml:space="preserve">
+    <value>可选地提供身份提供者提供的角色声明的类型名称（标准默认值为 'roles'）。如果身份提供者的角色名称与您网站的角色名称不完全匹配，请使用角色声明映射。</value>
+  </data>
+  <data name="RoleClaimType.Text" xml:space="preserve">
+    <value>角色声明：</value>
+  </data>
+  <data name="RoleClaimMappings.HelpText" xml:space="preserve">
+    <value>可选地提供身份提供者提供的角色名称的逗号分隔列表，以及与您网站角色的映射。例如，如果身份提供者包含 'Admin' 角色名称，而您希望将其映射到 'Administrators' 网站角色，则应指定 'Admin:Administrators'。</value>
+  </data>
+  <data name="RoleClaimMappings.Text" xml:space="preserve">
+    <value>角色声明映射：</value>
+  </data>
+  <data name="SynchronizeRoles.HelpText" xml:space="preserve">
+    <value>此选项将添加或删除角色分配，以便网站角色与身份提供者为用户提供的角色完全匹配。</value>
+  </data>
+  <data name="SynchronizeRoles.Text" xml:space="preserve">
+    <value>同步角色？</value>
+  </data>
+  <data name="ProfileClaimTypes.HelpText" xml:space="preserve">
+    <value>可选地提供由身份提供者提供的用户资料声明类型名称的逗号分隔列表，以及与您的用户资料定义的映射。例如，如果身份提供者包含 'given_name' 声明，而您有 'FirstName' 用户资料定义，则应指定 'given_name:FirstName'。</value>
+  </data>
+  <data name="ProfileClaimTypes.Text" xml:space="preserve">
+    <value>用户资料声明：</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="ImportUsers.Text" xml:space="preserve">
+    <value>导入用户</value>
+  </data>
+  <data name="AuthFlow.Code" xml:space="preserve">
+    <value>授权码</value>
+  </data>
+  <data name="AuthFlow.CodeIdToken" xml:space="preserve">
+    <value>授权码 + ID 令牌</value>
+  </data>
+  <data name="AuthFlow.CodeIdTokenToken" xml:space="preserve">
+    <value>授权码 + ID 令牌 + 访问令牌</value>
+  </data>
+  <data name="AuthFlow.CodeToken" xml:space="preserve">
+    <value>授权码 + 访问令牌</value>
+  </data>
+  <data name="AuthFlow.IdToken" xml:space="preserve">
+    <value>ID 令牌</value>
+  </data>
+  <data name="AuthFlow.IdTokenToken" xml:space="preserve">
+    <value>ID 令牌 + 访问令牌</value>
+  </data>
+  <data name="AuthFlow.None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="AuthFlow.Token" xml:space="preserve">
+    <value>访问令牌</value>
+  </data>
+  <data name="AuthResponseType.Text" xml:space="preserve">
+    <value>授权响应类型：</value>
+  </data>
+  <data name="AuthResponseType.HelpText" xml:space="preserve">
+    <value>指定授权响应类型。默认值是授权码，这被认为是基于最新OAuth规范的最安全选项。</value>
+  </data>
+  <data name="VerifyUsers.HelpText" xml:space="preserve">
+    <value>您希望现有用户执行额外的电子邮件验证步骤以链接他们的外部登录吗？如果您禁用此选项，现有用户将自动链接。</value>
+  </data>
+  <data name="VerifyUsers.Text" xml:space="preserve">
+    <value>验证现有用户？</value>
+  </data>
+  <data name="AlwaysRemember.HelpText" xml:space="preserve">
+    <value>启用此选项将设置一个永久性cookie，结合Cookie过期时间段，这将在用户下次访问网站时自动登录。默认情况下，网站将使用会话cookie。</value>
+  </data>
+  <data name="AlwaysRemember.Text" xml:space="preserve">
+    <value>是否始终记住用户？</value>
+  </data>
+  <data name="CookieExpiration.HelpText" xml:space="preserve">
+    <value>您可以为每个站点选择使用自定义身份验证 cookie 过期时间（例如，'08:00:00' 表示 8 小时）。如果未指定，默认值为 14 天。</value>
+  </data>
+  <data name="CookieExpiration.Text" xml:space="preserve">
+    <value>Cookie 过期时间：</value>
+  </data>
+  <data name="ReviewClaims.Text" xml:space="preserve">
+    <value>审核声明？</value>
+  </data>
+  <data name="ReviewClaims.HelpText" xml:space="preserve">
+    <value>此选项将记录提供者在事件日志中返回的完整声明列表。此选项仅应用于测试目的。启用此选项时，外部登录将受到限制。</value>
+  </data>
+  <data name="NameClaimType.HelpText" xml:space="preserve">
+    <value>可选地指定身份提供者提供的用户名称声明的类型名称。典型值为 'name'。</value>
+  </data>
+  <data name="NameClaimType.Text" xml:space="preserve">
+    <value>名称声明：</value>
+  </data>
+  <data name="Provider.HelpText" xml:space="preserve">
+    <value>选择外部登录提供者</value>
+  </data>
+  <data name="Provider.Text" xml:space="preserve">
+    <value>提供者：</value>
+  </data>
+  <data name="OAuth2" xml:space="preserve">
+    <value>OAuth 2.0 (OAuth2)</value>
+  </data>
+  <data name="OIDC" xml:space="preserve">
+    <value>OpenID Connect (OIDC)</value>
+  </data>
+  <data name="RequireNonce.Text" xml:space="preserve">
+    <value>需要随机数？</value>
+  </data>
+  <data name="RequireNonce.HelpText" xml:space="preserve">
+    <value>指定是否需要对 ID 令牌进行 Nonce 验证（默认值为 true）</value>
+  </data>
+  <data name="SaveTokens.Text" xml:space="preserve">
+    <value>保存令牌？</value>
+  </data>
+  <data name="SaveTokens.HelpText" xml:space="preserve">
+    <value>指定在成功登录后是否应保存访问令牌和刷新令牌。默认值为 false，以减少身份验证 cookie 的大小。</value>
+  </data>
+  <data name="Success.DeleteUser" xml:space="preserve">
+    <value>用户删除成功</value>
+  </data>
+  <data name="Error.DeleteUser" xml:space="preserve">
+    <value>删除用户时出错</value>
+  </data>
+  <data name="LogoutEverywhere.Text" xml:space="preserve">
+    <value>在所有地方注销？</value>
+  </data>
+  <data name="LogoutEverywhere.HelpText" xml:space="preserve">
+    <value>您希望用户在任何设备上的所有活动会话中注销，还是仅在当前会话中注销？</value>
+  </data>
+  <data name="AllowHostRole.Text" xml:space="preserve">
+    <value>允许主机角色？</value>
+  </data>
+  <data name="AllowHostRole.HelpText" xml:space="preserve">
+    <value>指示身份提供者是否支持主机角色。请谨慎使用此选项，因为它允许主机用户管理您安装中的每个站点。</value>
+  </data>
+  <data name="Active Users" xml:space="preserve">
+    <value>活跃用户</value>
+  </data>
+  <data name="Deleted Users" xml:space="preserve">
+    <value>已删除用户</value>
+  </data>
+  <data name="CookieDomain.Text" xml:space="preserve">
+    <value>Cookie 域：</value>
+  </data>
+  <data name="CookieDomain.HelpText" xml:space="preserve">
+    <value>如果您希望在子域之间共享 Cookie，您需要指定一个带有前导点的根域（例如：'.example.com'）</value>
+  </data>
+  <data name="SingleLogout.Text" xml:space="preserve">
+    <value>允许单一注销？</value>
+  </data>
+  <data name="SingleLogout.HelpText" xml:space="preserve">
+    <value>指定用户是否应同时从应用程序和提供者注销（默认值为 false，表示他们只会从应用程序注销）</value>
+  </data>
+</root>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Name.Text" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="Parent.Text" xml:space="preserve">
+    <value>父级：</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>标题：</value>
+  </data>
+  <data name="Settings.Heading" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SiteRoot" xml:space="preserve">
+    <value>站点根目录</value>
+  </data>
+  <data name="AtBeginning" xml:space="preserve">
+    <value>在开始时</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>之前</value>
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>之后</value>
+  </data>
+  <data name="AtEnd" xml:space="preserve">
+    <value>在末尾</value>
+  </data>
+  <data name="Page.Select" xml:space="preserve">
+    <value>选择页面</value>
+  </data>
+  <data name="Container.Select" xml:space="preserve">
+    <value>选择容器</value>
+  </data>
+  <data name="Error.Page.Load" xml:space="preserve">
+    <value>加载页面时出错</value>
+  </data>
+  <data name="Error.ChildPage.Load" xml:space="preserve">
+    <value>加载父级的子页面时出错</value>
+  </data>
+  <data name="Error.Pane.Load" xml:space="preserve">
+    <value>加载主题的窗格布局时出错</value>
+  </data>
+  <data name="Message.Page.Exists" xml:space="preserve">
+    <value>路径为 '{0}' 的页面已在此站点中存在。页面路径必须是唯一的。您可能需要检查回收站中是否存在具有此路径的页面。</value>
+  </data>
+  <data name="Message.Required.PageInfo" xml:space="preserve">
+    <value>您必须提供页面名称、主题和容器</value>
+  </data>
+  <data name="Error.Page.Save" xml:space="preserve">
+    <value>保存页面时出错</value>
+  </data>
+  <data name="Name.HelpText" xml:space="preserve">
+    <value>请输入页面名称</value>
+  </data>
+  <data name="Parent.HelpText" xml:space="preserve">
+    <value>在网站层级中选择页面的父级</value>
+  </data>
+  <data name="Insert.HelpText" xml:space="preserve">
+    <value>选择您希望页面相对于其他页面插入的位置</value>
+  </data>
+  <data name="Navigation.HelpText" xml:space="preserve">
+    <value>选择页面是否为网站导航的一部分或隐藏</value>
+  </data>
+  <data name="UrlPath.HelpText" xml:space="preserve">
+    <value>可选地为此页面输入一个 URL 路径（例如：home）。如果您不提供 URL 路径，将使用页面名称。如果页面打算作为根路径，请指定 '/'。</value>
+  </data>
+  <data name="Redirect.HelpText" xml:space="preserve">
+    <value>可选输入一个网址，当用户访问此页面时将重定向到该网址</value>
+  </data>
+  <data name="Title.HelpText" xml:space="preserve">
+    <value>可选输入页面标题。如果您不提供页面标题，将使用页面名称。</value>
+  </data>
+  <data name="Theme.HelpText" xml:space="preserve">
+    <value>选择此页面的主题</value>
+  </data>
+  <data name="DefaultContainer.HelpText" xml:space="preserve">
+    <value>选择页面的默认容器</value>
+  </data>
+  <data name="Icon.HelpText" xml:space="preserve">
+    <value>可选提供一个图标类名，该图标将在网站导航中显示</value>
+  </data>
+  <data name="Personalizable.HelpText" xml:space="preserve">
+    <value>选择是否希望用户能够用自己的内容个性化此页面</value>
+  </data>
+  <data name="Insert.Text" xml:space="preserve">
+    <value>插入：</value>
+  </data>
+  <data name="Navigation.Text" xml:space="preserve">
+    <value>导航？</value>
+  </data>
+  <data name="UrlPath.Text" xml:space="preserve">
+    <value>网址路径：</value>
+  </data>
+  <data name="Redirect.Text" xml:space="preserve">
+    <value>重定向：</value>
+  </data>
+  <data name="Theme.Text" xml:space="preserve">
+    <value>主题：</value>
+  </data>
+  <data name="DefaultContainer.Text" xml:space="preserve">
+    <value>默认容器：</value>
+  </data>
+  <data name="Icon.Text" xml:space="preserve">
+    <value>图标：</value>
+  </data>
+  <data name="Personalizable.Text" xml:space="preserve">
+    <value>可个性化？</value>
+  </data>
+  <data name="Appearance.Name" xml:space="preserve">
+    <value>外观</value>
+  </data>
+  <data name="HeadContent.HelpText" xml:space="preserve">
+    <value>可选择性地输入要包含在页面头部的内容（即 meta、link 或 script 标签）</value>
+  </data>
+  <data name="HeadContent.Text" xml:space="preserve">
+    <value>头部内容：</value>
+  </data>
+  <data name="Message.Page.Reserved" xml:space="preserve">
+    <value>页面名称 {0} 已被保留。请为您的页面输入一个不同的名称。</value>
+  </data>
+  <data name="BodyContent.HelpText" xml:space="preserve">
+    <value>可选择性地输入要包含在页面主体的内容（即 script 标签）</value>
+  </data>
+  <data name="BodyContent.Text" xml:space="preserve">
+    <value>主体内容：</value>
+  </data>
+  <data name="PageContent.Heading" xml:space="preserve">
+    <value>页面内容</value>
+  </data>
+  <data name="ThemeChanged.Message" xml:space="preserve">
+    <value>请注意，使用与页面主题无关的主题覆盖默认站点主题可能会导致您的站点出现兼容性问题</value>
+  </data>
+  <data name="Permissions.Heading" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="Theme.Heading" xml:space="preserve">
+    <value>主题设置</value>
+  </data>
+  <data name="EffectiveDate.HelpText" xml:space="preserve">
+    <value>此页面生效的日期</value>
+  </data>
+  <data name="EffectiveDate.Text" xml:space="preserve">
+    <value>生效日期：</value>
+  </data>
+  <data name="ExpiryDate.HelpText" xml:space="preserve">
+    <value>此页面过期的日期</value>
+  </data>
+  <data name="ExpiryDate.Text" xml:space="preserve">
+    <value>到期日期：</value>
+  </data>
+</root>
